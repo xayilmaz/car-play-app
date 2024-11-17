@@ -8,12 +8,14 @@
 
 /* Begin PBXBuildFile section */
 		00E356F31AD99517003FC87E /* CarPlayAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* CarPlayAppTests.m */; };
+		043DB120BBF70C36214594AF /* libPods-CarPlayApp.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 29707BBD9027A93806E4463B /* libPods-CarPlayApp.a */; };
+		0D7038672CE93270000F0C26 /* PhoneSceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D7038632CE93270000F0C26 /* PhoneSceneDelegate.m */; };
+		0D70386D2CE94AD0000F0C26 /* CarSceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D7038662CE93270000F0C26 /* CarSceneDelegate.m */; };
 		13B07FBC1A68108700A75B9A /* AppDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.mm */; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
-		CF5A71A5D72CD261AEF080EE /* libPods-CarPlayApp-CarPlayAppTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B0B8B2C4F1D4B3C0A983BD50 /* libPods-CarPlayApp-CarPlayAppTests.a */; };
-		F179DA595BEEB35D7294787A /* libPods-CarPlayApp.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F9A03237EE84B0B57F78622A /* libPods-CarPlayApp.a */; };
+		933493E1C38DDD74967D065A /* libPods-CarPlayApp-CarPlayAppTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B45D58BEBE90B43DAB140590 /* libPods-CarPlayApp-CarPlayAppTests.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -30,20 +32,24 @@
 		00E356EE1AD99517003FC87E /* CarPlayAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CarPlayAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		00E356F11AD99517003FC87E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		00E356F21AD99517003FC87E /* CarPlayAppTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CarPlayAppTests.m; sourceTree = "<group>"; };
-		0B10297F43F63D748A0EB8B5 /* Pods-CarPlayApp-CarPlayAppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CarPlayApp-CarPlayAppTests.release.xcconfig"; path = "Target Support Files/Pods-CarPlayApp-CarPlayAppTests/Pods-CarPlayApp-CarPlayAppTests.release.xcconfig"; sourceTree = "<group>"; };
+		0929D24083AB067E3108C42B /* Pods-CarPlayApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CarPlayApp.debug.xcconfig"; path = "Target Support Files/Pods-CarPlayApp/Pods-CarPlayApp.debug.xcconfig"; sourceTree = "<group>"; };
+		0D7038632CE93270000F0C26 /* PhoneSceneDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PhoneSceneDelegate.m; path = CarPlayApp/PhoneSceneDelegate.m; sourceTree = "<group>"; };
+		0D7038662CE93270000F0C26 /* CarSceneDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CarSceneDelegate.m; path = CarPlayApp/CarSceneDelegate.m; sourceTree = "<group>"; };
+		0D70386F2CE94B0C000F0C26 /* PhoneSceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PhoneSceneDelegate.h; sourceTree = "<group>"; };
+		0D7038702CE94B4E000F0C26 /* CarSceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CarSceneDelegate.h; sourceTree = "<group>"; };
 		13B07F961A680F5B00A75B9A /* CarPlayApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CarPlayApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = CarPlayApp/AppDelegate.h; sourceTree = "<group>"; };
 		13B07FB01A68108700A75B9A /* AppDelegate.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = AppDelegate.mm; path = CarPlayApp/AppDelegate.mm; sourceTree = "<group>"; };
 		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = CarPlayApp/Images.xcassets; sourceTree = "<group>"; };
 		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = CarPlayApp/Info.plist; sourceTree = "<group>"; };
 		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = CarPlayApp/main.m; sourceTree = "<group>"; };
-		48855C87B75AD7281832ADCF /* Pods-CarPlayApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CarPlayApp.debug.xcconfig"; path = "Target Support Files/Pods-CarPlayApp/Pods-CarPlayApp.debug.xcconfig"; sourceTree = "<group>"; };
+		29707BBD9027A93806E4463B /* libPods-CarPlayApp.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CarPlayApp.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7C29CBA66E8638B8B0E63BD6 /* Pods-CarPlayApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CarPlayApp.release.xcconfig"; path = "Target Support Files/Pods-CarPlayApp/Pods-CarPlayApp.release.xcconfig"; sourceTree = "<group>"; };
 		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = CarPlayApp/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		8385C93C4089E021C4A5EE0C /* Pods-CarPlayApp-CarPlayAppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CarPlayApp-CarPlayAppTests.debug.xcconfig"; path = "Target Support Files/Pods-CarPlayApp-CarPlayAppTests/Pods-CarPlayApp-CarPlayAppTests.debug.xcconfig"; sourceTree = "<group>"; };
-		B0B8B2C4F1D4B3C0A983BD50 /* libPods-CarPlayApp-CarPlayAppTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CarPlayApp-CarPlayAppTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		C512FBDAD4816A44305D4E77 /* Pods-CarPlayApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CarPlayApp.release.xcconfig"; path = "Target Support Files/Pods-CarPlayApp/Pods-CarPlayApp.release.xcconfig"; sourceTree = "<group>"; };
+		8D6BB2DAADD714F58F4D9092 /* Pods-CarPlayApp-CarPlayAppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CarPlayApp-CarPlayAppTests.release.xcconfig"; path = "Target Support Files/Pods-CarPlayApp-CarPlayAppTests/Pods-CarPlayApp-CarPlayAppTests.release.xcconfig"; sourceTree = "<group>"; };
+		B45D58BEBE90B43DAB140590 /* libPods-CarPlayApp-CarPlayAppTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CarPlayApp-CarPlayAppTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D6DE74CEE6219D0F3113C09B /* Pods-CarPlayApp-CarPlayAppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CarPlayApp-CarPlayAppTests.debug.xcconfig"; path = "Target Support Files/Pods-CarPlayApp-CarPlayAppTests/Pods-CarPlayApp-CarPlayAppTests.debug.xcconfig"; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
-		F9A03237EE84B0B57F78622A /* libPods-CarPlayApp.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CarPlayApp.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,7 +57,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CF5A71A5D72CD261AEF080EE /* libPods-CarPlayApp-CarPlayAppTests.a in Frameworks */,
+				933493E1C38DDD74967D065A /* libPods-CarPlayApp-CarPlayAppTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -59,7 +65,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F179DA595BEEB35D7294787A /* libPods-CarPlayApp.a in Frameworks */,
+				043DB120BBF70C36214594AF /* libPods-CarPlayApp.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -86,12 +92,16 @@
 		13B07FAE1A68108700A75B9A /* CarPlayApp */ = {
 			isa = PBXGroup;
 			children = (
+				0D7038662CE93270000F0C26 /* CarSceneDelegate.m */,
+				0D7038632CE93270000F0C26 /* PhoneSceneDelegate.m */,
 				13B07FAF1A68108700A75B9A /* AppDelegate.h */,
 				13B07FB01A68108700A75B9A /* AppDelegate.mm */,
 				13B07FB51A68108700A75B9A /* Images.xcassets */,
 				13B07FB61A68108700A75B9A /* Info.plist */,
 				81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */,
 				13B07FB71A68108700A75B9A /* main.m */,
+				0D70386F2CE94B0C000F0C26 /* PhoneSceneDelegate.h */,
+				0D7038702CE94B4E000F0C26 /* CarSceneDelegate.h */,
 			);
 			name = CarPlayApp;
 			sourceTree = "<group>";
@@ -100,8 +110,8 @@
 			isa = PBXGroup;
 			children = (
 				ED297162215061F000B7C4FE /* JavaScriptCore.framework */,
-				F9A03237EE84B0B57F78622A /* libPods-CarPlayApp.a */,
-				B0B8B2C4F1D4B3C0A983BD50 /* libPods-CarPlayApp-CarPlayAppTests.a */,
+				29707BBD9027A93806E4463B /* libPods-CarPlayApp.a */,
+				B45D58BEBE90B43DAB140590 /* libPods-CarPlayApp-CarPlayAppTests.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -140,10 +150,10 @@
 		BBD78D7AC51CEA395F1C20DB /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				48855C87B75AD7281832ADCF /* Pods-CarPlayApp.debug.xcconfig */,
-				C512FBDAD4816A44305D4E77 /* Pods-CarPlayApp.release.xcconfig */,
-				8385C93C4089E021C4A5EE0C /* Pods-CarPlayApp-CarPlayAppTests.debug.xcconfig */,
-				0B10297F43F63D748A0EB8B5 /* Pods-CarPlayApp-CarPlayAppTests.release.xcconfig */,
+				0929D24083AB067E3108C42B /* Pods-CarPlayApp.debug.xcconfig */,
+				7C29CBA66E8638B8B0E63BD6 /* Pods-CarPlayApp.release.xcconfig */,
+				D6DE74CEE6219D0F3113C09B /* Pods-CarPlayApp-CarPlayAppTests.debug.xcconfig */,
+				8D6BB2DAADD714F58F4D9092 /* Pods-CarPlayApp-CarPlayAppTests.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -155,12 +165,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "CarPlayAppTests" */;
 			buildPhases = (
-				A3633B1C98BDA71912198E9B /* [CP] Check Pods Manifest.lock */,
+				2823A2CE4E95A1A53DCEF994 /* [CP] Check Pods Manifest.lock */,
 				00E356EA1AD99517003FC87E /* Sources */,
 				00E356EB1AD99517003FC87E /* Frameworks */,
 				00E356EC1AD99517003FC87E /* Resources */,
-				1AE99E64DBA8BAEAB1B34F8E /* [CP] Embed Pods Frameworks */,
-				0FC070A17D37D97E03EC62F5 /* [CP] Copy Pods Resources */,
+				7515D1D6BBDEF0BAF0F22D9F /* [CP] Embed Pods Frameworks */,
+				33E102FC2ACBE544264D7A52 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -176,14 +186,14 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "CarPlayApp" */;
 			buildPhases = (
-				9CDB100C330E3E11E2EA9CF2 /* [CP] Check Pods Manifest.lock */,
+				80E1721E462E5FA3691F3599 /* [CP] Check Pods Manifest.lock */,
 				FD10A7F022414F080027D42C /* Start Packager */,
 				13B07F871A680F5B00A75B9A /* Sources */,
 				13B07F8C1A680F5B00A75B9A /* Frameworks */,
 				13B07F8E1A680F5B00A75B9A /* Resources */,
 				00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */,
-				F411B7961B4AB3D360AF1C5E /* [CP] Embed Pods Frameworks */,
-				04B1881410FAE2CC4B31D47B /* [CP] Copy Pods Resources */,
+				738C1D625E760E48707736E8 /* [CP] Embed Pods Frameworks */,
+				1980A2FBE7D217244502C113 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -266,7 +276,7 @@
 			shellPath = /bin/sh;
 			shellScript = "set -e\n\nWITH_ENVIRONMENT=\"../node_modules/react-native/scripts/xcode/with-environment.sh\"\nREACT_NATIVE_XCODE=\"../node_modules/react-native/scripts/react-native-xcode.sh\"\n\n/bin/sh -c \"$WITH_ENVIRONMENT $REACT_NATIVE_XCODE\"\n";
 		};
-		04B1881410FAE2CC4B31D47B /* [CP] Copy Pods Resources */ = {
+		1980A2FBE7D217244502C113 /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -283,63 +293,7 @@
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-CarPlayApp/Pods-CarPlayApp-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		0FC070A17D37D97E03EC62F5 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-CarPlayApp-CarPlayAppTests/Pods-CarPlayApp-CarPlayAppTests-resources-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Copy Pods Resources";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-CarPlayApp-CarPlayAppTests/Pods-CarPlayApp-CarPlayAppTests-resources-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-CarPlayApp-CarPlayAppTests/Pods-CarPlayApp-CarPlayAppTests-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		1AE99E64DBA8BAEAB1B34F8E /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-CarPlayApp-CarPlayAppTests/Pods-CarPlayApp-CarPlayAppTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-CarPlayApp-CarPlayAppTests/Pods-CarPlayApp-CarPlayAppTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-CarPlayApp-CarPlayAppTests/Pods-CarPlayApp-CarPlayAppTests-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		9CDB100C330E3E11E2EA9CF2 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-CarPlayApp-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		A3633B1C98BDA71912198E9B /* [CP] Check Pods Manifest.lock */ = {
+		2823A2CE4E95A1A53DCEF994 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -361,7 +315,24 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		F411B7961B4AB3D360AF1C5E /* [CP] Embed Pods Frameworks */ = {
+		33E102FC2ACBE544264D7A52 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CarPlayApp-CarPlayAppTests/Pods-CarPlayApp-CarPlayAppTests-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CarPlayApp-CarPlayAppTests/Pods-CarPlayApp-CarPlayAppTests-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-CarPlayApp-CarPlayAppTests/Pods-CarPlayApp-CarPlayAppTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		738C1D625E760E48707736E8 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -376,6 +347,45 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-CarPlayApp/Pods-CarPlayApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7515D1D6BBDEF0BAF0F22D9F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CarPlayApp-CarPlayAppTests/Pods-CarPlayApp-CarPlayAppTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CarPlayApp-CarPlayAppTests/Pods-CarPlayApp-CarPlayAppTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-CarPlayApp-CarPlayAppTests/Pods-CarPlayApp-CarPlayAppTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		80E1721E462E5FA3691F3599 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CarPlayApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
 		FD10A7F022414F080027D42C /* Start Packager */ = {
@@ -413,6 +423,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				13B07FBC1A68108700A75B9A /* AppDelegate.mm in Sources */,
+				0D7038672CE93270000F0C26 /* PhoneSceneDelegate.m in Sources */,
+				0D70386D2CE94AD0000F0C26 /* CarSceneDelegate.m in Sources */,
 				13B07FC11A68108700A75B9A /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -430,7 +442,7 @@
 /* Begin XCBuildConfiguration section */
 		00E356F61AD99517003FC87E /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8385C93C4089E021C4A5EE0C /* Pods-CarPlayApp-CarPlayAppTests.debug.xcconfig */;
+			baseConfigurationReference = D6DE74CEE6219D0F3113C09B /* Pods-CarPlayApp-CarPlayAppTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				GCC_PREPROCESSOR_DEFINITIONS = (
@@ -457,7 +469,7 @@
 		};
 		00E356F71AD99517003FC87E /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0B10297F43F63D748A0EB8B5 /* Pods-CarPlayApp-CarPlayAppTests.release.xcconfig */;
+			baseConfigurationReference = 8D6BB2DAADD714F58F4D9092 /* Pods-CarPlayApp-CarPlayAppTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				COPY_PHASE_STRIP = NO;
@@ -481,13 +493,14 @@
 		};
 		13B07F941A680F5B00A75B9A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 48855C87B75AD7281832ADCF /* Pods-CarPlayApp.debug.xcconfig */;
+			baseConfigurationReference = 0929D24083AB067E3108C42B /* Pods-CarPlayApp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CURRENT_PROJECT_VERSION = 1;
 				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = CarPlayApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -507,12 +520,13 @@
 		};
 		13B07F951A680F5B00A75B9A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = C512FBDAD4816A44305D4E77 /* Pods-CarPlayApp.release.xcconfig */;
+			baseConfigurationReference = 7C29CBA66E8638B8B0E63BD6 /* Pods-CarPlayApp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CURRENT_PROJECT_VERSION = 1;
 				INFOPLIST_FILE = CarPlayApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -579,7 +593,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					/usr/lib/swift,
 					"$(inherited)",
@@ -602,6 +616,7 @@
 					"-Wl",
 					"-ld_classic",
 				);
+				PRODUCT_MODULE_NAME = CarPlayApp;
 				REACT_NATIVE_PATH = "${PODS_ROOT}/../../node_modules/react-native";
 				SDKROOT = iphoneos;
 			};
@@ -653,7 +668,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					/usr/lib/swift,
 					"$(inherited)",
@@ -675,6 +690,7 @@
 					"-Wl",
 					"-ld_classic",
 				);
+				PRODUCT_MODULE_NAME = CarPlayApp;
 				REACT_NATIVE_PATH = "${PODS_ROOT}/../../node_modules/react-native";
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;

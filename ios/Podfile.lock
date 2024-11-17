@@ -239,6 +239,8 @@ PODS:
   - React-jsinspector (0.70.15)
   - React-logger (0.70.15):
     - glog
+  - react-native-carplay (2.3.0):
+    - React
   - React-perflogger (0.70.15)
   - React-RCTActionSheet (0.70.15):
     - React-Core/RCTActionSheetHeaders (= 0.70.15)
@@ -331,6 +333,7 @@ DEPENDENCIES:
   - React-jsiexecutor (from `../node_modules/react-native/ReactCommon/jsiexecutor`)
   - React-jsinspector (from `../node_modules/react-native/ReactCommon/jsinspector`)
   - React-logger (from `../node_modules/react-native/ReactCommon/logger`)
+  - react-native-carplay (from `../node_modules/react-native-carplay`)
   - React-perflogger (from `../node_modules/react-native/ReactCommon/reactperflogger`)
   - React-RCTActionSheet (from `../node_modules/react-native/Libraries/ActionSheetIOS`)
   - React-RCTAnimation (from `../node_modules/react-native/Libraries/NativeAnimation`)
@@ -393,6 +396,8 @@ EXTERNAL SOURCES:
     :path: "../node_modules/react-native/ReactCommon/jsinspector"
   React-logger:
     :path: "../node_modules/react-native/ReactCommon/logger"
+  react-native-carplay:
+    :path: "../node_modules/react-native-carplay"
   React-perflogger:
     :path: "../node_modules/react-native/ReactCommon/reactperflogger"
   React-RCTActionSheet:
@@ -444,6 +449,7 @@ SPEC CHECKSUMS:
   React-jsiexecutor: d2eebcd5a432f90be3baa5d1309f47d05478ea61
   React-jsinspector: bfedded1f4f562d29c2d4a8bb795c9a150a739e4
   React-logger: 31f198387a04172be49fe38e41a082560a81aeeb
+  react-native-carplay: c0327ae947e4a12c7d66315d54254fdf87a982ec
   React-perflogger: 010e98d3335e5185a8f7496babca50d82a042e84
   React-RCTActionSheet: 0f585d684b540a5bbfc62b0a1fbc5292cff2aefc
   React-RCTAnimation: eb0e5b020333f9cc652d85f27a47086fbf56fffd
@@ -458,6 +464,6 @@ SPEC CHECKSUMS:
   ReactCommon: 200471e0841cf2f7cde1fa2ef3d3c199ed970c07
   Yoga: d6134eb3d6e3675afc1d6d65ccb3169b60e21980
 
-PODFILE CHECKSUM: 401778533818ae8c811d80801624f57193193bf9
+PODFILE CHECKSUM: fd62a5c92219e706d110b0272636fd43ec481a62
 
 COCOAPODS: 1.15.2

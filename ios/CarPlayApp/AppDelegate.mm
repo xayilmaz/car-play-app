@@ -6,6 +6,9 @@
 
 #import <React/RCTAppSetupUtils.h>
 
+#import "CarSceneDelegate.h"
+#import "PhoneSceneDelegate.h"
+
 #if RCT_NEW_ARCH_ENABLED
 #import <React/CoreModulesPlugins.h>
 #import <React/RCTCxxBridgeDelegate.h>
@@ -15,6 +18,7 @@
 #import <ReactCommon/RCTTurboModuleManager.h>
 
 #import <react/config/ReactNativeConfig.h>
+
 
 static NSString *const kRNConcurrentRoot = @"concurrentRoot";
 
@@ -129,5 +133,17 @@ static NSString *const kRNConcurrentRoot = @"concurrentRoot";
 }
 
 #endif
+
+- (UISceneConfiguration *)application:(UIApplication *)application configurationForConnectingSceneSession:(UISceneSession *)connectingSceneSession options:(UISceneConnectionOptions *)options {
+  if([[connectingSceneSession role] isEqualToString:@"CPTemplateApplicationSceneSessionRoleApplication"]) {
+    UISceneConfiguration *scene = [[UISceneConfiguration alloc] initWithName:@"CarPlay" sessionRole:connectingSceneSession.role];
+    [scene setDelegateClass:CarSceneDelegate.class]; //TODO
+    return scene;
+  } else {
+    UISceneConfiguration *scene = [[UISceneConfiguration alloc] initWithName:@"Phone" sessionRole:connectingSceneSession.role];
+    [scene setDelegateClass:PhoneSceneDelegate.class]; //TODO
+    return scene;
+  }
+}
 
 @end
